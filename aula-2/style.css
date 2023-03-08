@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h1:hover {
     color: blue;
 }
@@ -15,4 +19,16 @@ div {
 h1, h2 {
     background-color: yellowgreen;
     padding: 5px;
+}
+
+p#diferente {
+    background-color: rgb(51, 255, 0);
+}
+
+p.diferentes {
+    background-color: aquamarine;
+}
+
+h3 {
+    border: 2px solid blue;
 }
