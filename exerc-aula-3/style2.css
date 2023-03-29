@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+div {
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    row-gap: 8px;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: chartreuse;
+}
+
+.box2 {
+    background-color: red;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+.box4 {
+    background-color: red;
+}
+
+.box5 {
+    background-color: blue;
+}
+
+.box6 {
+    background-color: red;
+}
+
+.box7 {
+    background-color: blue;
+}
+
+.box8 {
+    background-color: red;
+}
+
+.box9 {
+    background-color: blue;
+}
+
+
+.box10 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    background-color: chartreuse;
+}
