@@ -6,19 +6,36 @@ div {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 200px auto auto;
 }
 
 .box1 {
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    background-color: greenyellow;
 }
 
 .box2 {
-    grid-column-start: 1;
+    background-color: grey;
+}
+
+.box3 {
+    background-color: aqua;
+}
+
+.box4 {
+    background-color: blueviolet;
+}
+
+.box5 {
+    background-color: chocolate;
+}
+
+.box6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 4;
-    grid-row-end: 4;
+    grid-row-end: 3;
+    background-color: red;
 }
